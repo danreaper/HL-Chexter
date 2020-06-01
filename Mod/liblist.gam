@@ -1,8 +1,0 @@
-game "Half Life: Chexter"
-icon "game"
-startmap "HLC_map01"
-mpentity "info_player_deathmatch"
-gamedll "dlls\wip.dll"
-cldll "1"
-secure "1"
-type "singleplayer_only"
