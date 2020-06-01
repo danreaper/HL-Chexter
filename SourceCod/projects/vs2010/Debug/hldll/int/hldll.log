@@ -1,0 +1,234 @@
+﻿Build started 2/06/2020 4:31:35 AM.
+     1>Project "D:\Working\Half Life Chexter\Source Code\projects\vs2010\hldll.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\dlls /I..\..\engine /I..\..\common /I..\..\pm_shared /I..\..\game_shared /I..\..\public /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D QUIVER /D VOXEL /D QUAKE2 /D VALVE_DLL /D CLIENT_WEAPONS /D _WINDLL /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Debug\hldll\int\\" /Fd"Debug\hldll\int\vc120.pdb" /Gd /TP /wd4027 /wd4058 /wd4996 /analyze- /errorReport:prompt ..\..\dlls\aflock.cpp ..\..\dlls\agrunt.cpp ..\..\dlls\airtank.cpp ..\..\dlls\animating.cpp ..\..\dlls\animation.cpp ..\..\dlls\apache.cpp ..\..\dlls\barnacle.cpp ..\..\dlls\barney.cpp ..\..\dlls\bigmomma.cpp ..\..\dlls\bloater.cpp ..\..\dlls\bmodels.cpp ..\..\dlls\bullsquid.cpp ..\..\dlls\buttons.cpp ..\..\dlls\cbase.cpp ..\..\dlls\client.cpp ..\..\dlls\combat.cpp ..\..\dlls\controller.cpp ..\..\dlls\crossbow.cpp ..\..\dlls\crowbar.cpp ..\..\dlls\defaultai.cpp ..\..\dlls\doors.cpp ..\..\dlls\effects.cpp ..\..\dlls\egon.cpp ..\..\dlls\explode.cpp ..\..\dlls\flyingmonster.cpp ..\..\dlls\func_break.cpp ..\..\dlls\func_tank.cpp ..\..\dlls\game.cpp ..\..\dlls\gamerules.cpp ..\..\dlls\gargantua.cpp ..\..\dlls\gauss.cpp ..\..\dlls\genericmonster.cpp ..\..\dlls\ggrenade.cpp ..\..\dlls\globals.cpp ..\..\dlls\gman.cpp ..\..\dlls\handgrenade.cpp ..\..\dlls\hassassin.cpp ..\..\dlls\headcrab.cpp ..\..\dlls\healthkit.cpp ..\..\dlls\hgrunt.cpp ..\..\dlls\hornet.cpp ..\..\dlls\hornetgun.cpp ..\..\dlls\houndeye.cpp ..\..\dlls\h_ai.cpp ..\..\dlls\h_battery.cpp ..\..\dlls\h_cine.cpp ..\..\dlls\h_cycler.cpp ..\..\dlls\h_export.cpp ..\..\dlls\ichthyosaur.cpp ..\..\dlls\islave.cpp ..\..\dlls\items.cpp ..\..\dlls\leech.cpp ..\..\dlls\lights.cpp ..\..\dlls\maprules.cpp ..\..\dlls\monstermaker.cpp ..\..\dlls\monsters.cpp ..\..\dlls\monsterstate.cpp ..\..\dlls\mortar.cpp ..\..\dlls\mp5.cpp ..\..\dlls\multiplay_gamerules.cpp ..\..\dlls\nihilanth.cpp ..\..\dlls\nodes.cpp ..\..\dlls\observer.cpp ..\..\dlls\osprey.cpp ..\..\dlls\pathcorner.cpp ..\..\dlls\plane.cpp ..\..\dlls\plats.cpp ..\..\dlls\player.cpp ..\..\dlls\python.cpp ..\..\dlls\rat.cpp ..\..\dlls\roach.cpp ..\..\dlls\rpg.cpp ..\..\dlls\satchel.cpp ..\..\dlls\schedule.cpp ..\..\dlls\scientist.cpp ..\..\dlls\scripted.cpp ..\..\dlls\shotgun.cpp ..\..\dlls\singleplay_gamerules.cpp ..\..\dlls\skill.cpp ..\..\dlls\sound.cpp ..\..\dlls\soundent.cpp ..\..\dlls\spectator.cpp ..\..\dlls\squadmonster.cpp ..\..\dlls\squeakgrenade.cpp ..\..\dlls\subs.cpp ..\..\dlls\talkmonster.cpp ..\..\dlls\teamplay_gamerules.cpp ..\..\dlls\tempmonster.cpp ..\..\dlls\tentacle.cpp ..\..\dlls\triggers.cpp ..\..\dlls\tripmine.cpp ..\..\dlls\turret.cpp ..\..\dlls\util.cpp ..\..\dlls\weapons.cpp ..\..\dlls\world.cpp ..\..\dlls\wpn_shared\hl_wpn_glock.cpp ..\..\dlls\xen.cpp ..\..\dlls\zombie.cpp ..\..\game_shared\voice_gamemgr.cpp
+         voice_gamemgr.cpp
+         zombie.cpp
+         xen.cpp
+         hl_wpn_glock.cpp
+         world.cpp
+         weapons.cpp
+         util.cpp
+         turret.cpp
+         tripmine.cpp
+         triggers.cpp
+         tentacle.cpp
+         tempmonster.cpp
+         teamplay_gamerules.cpp
+         talkmonster.cpp
+         subs.cpp
+         squeakgrenade.cpp
+         squadmonster.cpp
+         spectator.cpp
+         soundent.cpp
+         sound.cpp
+         Generating Code...
+         Compiling...
+         skill.cpp
+         singleplay_gamerules.cpp
+         shotgun.cpp
+         scripted.cpp
+         scientist.cpp
+         schedule.cpp
+         satchel.cpp
+         rpg.cpp
+         roach.cpp
+         rat.cpp
+         python.cpp
+         player.cpp
+         plats.cpp
+         plane.cpp
+         pathcorner.cpp
+         osprey.cpp
+         observer.cpp
+         nodes.cpp
+     1>d:\working\half life chexter\source code\dlls\nodes.cpp(3446): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 d:\working\half life chexter\source code\dlls\nodes.cpp(3441) : definition of 'i' ignored
+                 d:\working\half life chexter\source code\dlls\nodes.cpp(3386) : definition of 'i' used
+     1>d:\working\half life chexter\source code\dlls\nodes.cpp(3448): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 d:\working\half life chexter\source code\dlls\nodes.cpp(3441) : definition of 'i' ignored
+                 d:\working\half life chexter\source code\dlls\nodes.cpp(3386) : definition of 'i' used
+         nihilanth.cpp
+         multiplay_gamerules.cpp
+         Generating Code...
+         Compiling...
+         mp5.cpp
+         mortar.cpp
+         monsterstate.cpp
+         monsters.cpp
+         monstermaker.cpp
+         maprules.cpp
+         lights.cpp
+         leech.cpp
+         items.cpp
+         islave.cpp
+         ichthyosaur.cpp
+         h_export.cpp
+         h_cycler.cpp
+         h_cine.cpp
+         h_battery.cpp
+         h_ai.cpp
+         houndeye.cpp
+         hornetgun.cpp
+         hornet.cpp
+         hgrunt.cpp
+         Generating Code...
+         Compiling...
+         healthkit.cpp
+         headcrab.cpp
+         hassassin.cpp
+         handgrenade.cpp
+         gman.cpp
+         globals.cpp
+         ggrenade.cpp
+         genericmonster.cpp
+         gauss.cpp
+         gargantua.cpp
+         gamerules.cpp
+         game.cpp
+         func_tank.cpp
+         func_break.cpp
+         flyingmonster.cpp
+         explode.cpp
+         egon.cpp
+         effects.cpp
+         doors.cpp
+         defaultai.cpp
+         Generating Code...
+         Compiling...
+         crowbar.cpp
+         crossbow.cpp
+         controller.cpp
+         combat.cpp
+         client.cpp
+         cbase.cpp
+         buttons.cpp
+         bullsquid.cpp
+         bmodels.cpp
+         bloater.cpp
+         bigmomma.cpp
+         barney.cpp
+         barnacle.cpp
+         apache.cpp
+         animation.cpp
+         animating.cpp
+         airtank.cpp
+         agrunt.cpp
+         aflock.cpp
+         Generating Code...
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\dlls /I..\..\engine /I..\..\common /I..\..\pm_shared /I..\..\game_shared /I..\..\public /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D QUIVER /D VOXEL /D QUAKE2 /D VALVE_DLL /D CLIENT_WEAPONS /D _WINDLL /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Debug\hldll\int\\" /Fd"Debug\hldll\int\vc120.pdb" /Gd /TC /wd4027 /wd4058 /wd4996 /analyze- /errorReport:prompt ..\..\pm_shared\pm_debug.c ..\..\pm_shared\pm_math.c ..\..\pm_shared\pm_shared.c
+         pm_shared.c
+         pm_math.c
+         pm_debug.c
+         Generating Code...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"(Configuration)\hldll\hlc.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"D:\Working\Half Life Chexter\Source Code\projects\vs2010\..\..\dlls\hl.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"(Configuration)\hldll\hlc.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"(Configuration)\hldll\hlc.lib" /MACHINE:X86 /DLL Debug\hldll\int\aflock.obj
+         Debug\hldll\int\agrunt.obj
+         Debug\hldll\int\airtank.obj
+         Debug\hldll\int\animating.obj
+         Debug\hldll\int\animation.obj
+         Debug\hldll\int\apache.obj
+         Debug\hldll\int\barnacle.obj
+         Debug\hldll\int\barney.obj
+         Debug\hldll\int\bigmomma.obj
+         Debug\hldll\int\bloater.obj
+         Debug\hldll\int\bmodels.obj
+         Debug\hldll\int\bullsquid.obj
+         Debug\hldll\int\buttons.obj
+         Debug\hldll\int\cbase.obj
+         Debug\hldll\int\client.obj
+         Debug\hldll\int\combat.obj
+         Debug\hldll\int\controller.obj
+         Debug\hldll\int\crossbow.obj
+         Debug\hldll\int\crowbar.obj
+         Debug\hldll\int\defaultai.obj
+         Debug\hldll\int\doors.obj
+         Debug\hldll\int\effects.obj
+         Debug\hldll\int\egon.obj
+         Debug\hldll\int\explode.obj
+         Debug\hldll\int\flyingmonster.obj
+         Debug\hldll\int\func_break.obj
+         Debug\hldll\int\func_tank.obj
+         Debug\hldll\int\game.obj
+         Debug\hldll\int\gamerules.obj
+         Debug\hldll\int\gargantua.obj
+         Debug\hldll\int\gauss.obj
+         Debug\hldll\int\genericmonster.obj
+         Debug\hldll\int\ggrenade.obj
+         Debug\hldll\int\globals.obj
+         Debug\hldll\int\gman.obj
+         Debug\hldll\int\handgrenade.obj
+         Debug\hldll\int\hassassin.obj
+         Debug\hldll\int\headcrab.obj
+         Debug\hldll\int\healthkit.obj
+         Debug\hldll\int\hgrunt.obj
+         Debug\hldll\int\hornet.obj
+         Debug\hldll\int\hornetgun.obj
+         Debug\hldll\int\houndeye.obj
+         Debug\hldll\int\h_ai.obj
+         Debug\hldll\int\h_battery.obj
+         Debug\hldll\int\h_cine.obj
+         Debug\hldll\int\h_cycler.obj
+         Debug\hldll\int\h_export.obj
+         Debug\hldll\int\ichthyosaur.obj
+         Debug\hldll\int\islave.obj
+         Debug\hldll\int\items.obj
+         Debug\hldll\int\leech.obj
+         Debug\hldll\int\lights.obj
+         Debug\hldll\int\maprules.obj
+         Debug\hldll\int\monstermaker.obj
+         Debug\hldll\int\monsters.obj
+         Debug\hldll\int\monsterstate.obj
+         Debug\hldll\int\mortar.obj
+         Debug\hldll\int\mp5.obj
+         Debug\hldll\int\multiplay_gamerules.obj
+         Debug\hldll\int\nihilanth.obj
+         Debug\hldll\int\nodes.obj
+         Debug\hldll\int\observer.obj
+         Debug\hldll\int\osprey.obj
+         Debug\hldll\int\pathcorner.obj
+         Debug\hldll\int\plane.obj
+         Debug\hldll\int\plats.obj
+         Debug\hldll\int\player.obj
+         Debug\hldll\int\python.obj
+         Debug\hldll\int\rat.obj
+         Debug\hldll\int\roach.obj
+         Debug\hldll\int\rpg.obj
+         Debug\hldll\int\satchel.obj
+         Debug\hldll\int\schedule.obj
+         Debug\hldll\int\scientist.obj
+         Debug\hldll\int\scripted.obj
+         Debug\hldll\int\shotgun.obj
+         Debug\hldll\int\singleplay_gamerules.obj
+         Debug\hldll\int\skill.obj
+         Debug\hldll\int\sound.obj
+         Debug\hldll\int\soundent.obj
+         Debug\hldll\int\spectator.obj
+         Debug\hldll\int\squadmonster.obj
+         Debug\hldll\int\squeakgrenade.obj
+         Debug\hldll\int\subs.obj
+         Debug\hldll\int\talkmonster.obj
+         Debug\hldll\int\teamplay_gamerules.obj
+         Debug\hldll\int\tempmonster.obj
+         Debug\hldll\int\tentacle.obj
+         Debug\hldll\int\triggers.obj
+         Debug\hldll\int\tripmine.obj
+         Debug\hldll\int\turret.obj
+         Debug\hldll\int\util.obj
+         Debug\hldll\int\weapons.obj
+         Debug\hldll\int\world.obj
+         Debug\hldll\int\hl_wpn_glock.obj
+         Debug\hldll\int\xen.obj
+         Debug\hldll\int\zombie.obj
+         Debug\hldll\int\voice_gamemgr.obj
+         Debug\hldll\int\pm_debug.obj
+         Debug\hldll\int\pm_math.obj
+         Debug\hldll\int\pm_shared.obj
+            Creating library (Configuration)\hldll\hlc.lib and object (Configuration)\hldll\hlc.exp
+     1>hlc.exp : warning LNK4070: /OUT:hl.dll directive in .EXP differs from output filename '(Configuration)\hldll\hlc.dll'; ignoring directive
+         hldll.vcxproj -> D:\Working\Half Life Chexter\Source Code\projects\vs2010\(Configuration)\hldll\hlc.dll
+     1>Done Building Project "D:\Working\Half Life Chexter\Source Code\projects\vs2010\hldll.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:15.90
