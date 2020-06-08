@@ -1,5 +1,5 @@
-﻿Build started 2/06/2020 4:28:05 AM.
-     1>Project "D:\Working\Half Life Chexter\Source Code\projects\vs2010\hl_cdll.vcxproj" on node 3 (Rebuild target(s)).
+﻿Build started 4/06/2020 2:46:01 PM.
+     1>Project "D:\Working\Half Life Chexter\SourceCode\projects\vs2010\hl_cdll.vcxproj" on node 3 (Rebuild target(s)).
      1>ClCompile:
          D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\dlls /I..\..\cl_dll /I..\..\public /I..\..\common /I..\..\pm_shared /I..\..\engine /I..\..\utils\vgui\include /I..\..\game_shared /I..\..\external /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D CLIENT_DLL /D CLIENT_WEAPONS /D HL_DLL /D _WINDLL /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Debug\hl_cdll\int\\" /Fd"Debug\hl_cdll\int\vc120.pdb" /Gd /TP /wd4028 /wd4058 /wd4996 /analyze- /errorReport:prompt ..\..\cl_dll\ammo.cpp ..\..\cl_dll\ammohistory.cpp ..\..\cl_dll\ammo_secondary.cpp ..\..\cl_dll\battery.cpp ..\..\cl_dll\cdll_int.cpp ..\..\cl_dll\com_weapons.cpp ..\..\cl_dll\death.cpp ..\..\cl_dll\demo.cpp ..\..\cl_dll\entity.cpp ..\..\cl_dll\events.cpp ..\..\cl_dll\ev_common.cpp ..\..\cl_dll\ev_hldm.cpp ..\..\cl_dll\flashlight.cpp ..\..\cl_dll\GameStudioModelRenderer.cpp ..\..\cl_dll\geiger.cpp ..\..\cl_dll\health.cpp ..\..\cl_dll\hl\hl_baseentity.cpp ..\..\cl_dll\hl\hl_events.cpp ..\..\cl_dll\hl\hl_objects.cpp ..\..\cl_dll\hl\hl_weapons.cpp ..\..\cl_dll\hud.cpp ..\..\cl_dll\hud_bench.cpp ..\..\cl_dll\hud_benchtrace.cpp ..\..\cl_dll\hud_msg.cpp ..\..\cl_dll\hud_redraw.cpp ..\..\cl_dll\hud_servers.cpp ..\..\cl_dll\hud_spectator.cpp ..\..\cl_dll\hud_update.cpp ..\..\cl_dll\input.cpp ..\..\cl_dll\inputw32.cpp ..\..\cl_dll\interpolation.cpp ..\..\cl_dll\in_camera.cpp ..\..\cl_dll\menu.cpp ..\..\cl_dll\message.cpp ..\..\cl_dll\saytext.cpp ..\..\cl_dll\statusbar.cpp ..\..\cl_dll\status_icons.cpp ..\..\cl_dll\StudioModelRenderer.cpp ..\..\cl_dll\studio_util.cpp ..\..\cl_dll\text_message.cpp ..\..\cl_dll\train.cpp ..\..\cl_dll\tri.cpp ..\..\cl_dll\util.cpp ..\..\cl_dll\vgui_ClassMenu.cpp ..\..\cl_dll\vgui_ControlConfigPanel.cpp ..\..\cl_dll\vgui_CustomObjects.cpp ..\..\cl_dll\vgui_int.cpp ..\..\cl_dll\vgui_MOTDWindow.cpp ..\..\cl_dll\vgui_SchemeManager.cpp ..\..\cl_dll\vgui_ScorePanel.cpp ..\..\cl_dll\vgui_ServerBrowser.cpp ..\..\cl_dll\vgui_SpectatorPanel.cpp ..\..\cl_dll\vgui_TeamFortressViewport.cpp ..\..\cl_dll\vgui_teammenu.cpp ..\..\cl_dll\view.cpp ..\..\cl_dll\voice_status.cpp ..\..\common\parsemsg.cpp ..\..\dlls\crossbow.cpp ..\..\dlls\crowbar.cpp ..\..\dlls\egon.cpp ..\..\dlls\gauss.cpp ..\..\dlls\handgrenade.cpp ..\..\dlls\hornetgun.cpp ..\..\dlls\mp5.cpp ..\..\dlls\python.cpp ..\..\dlls\rpg.cpp ..\..\dlls\satchel.cpp ..\..\dlls\shotgun.cpp ..\..\dlls\squeakgrenade.cpp ..\..\dlls\tripmine.cpp ..\..\dlls\wpn_shared\hl_wpn_glock.cpp ..\..\game_shared\vgui_checkbutton2.cpp ..\..\game_shared\vgui_grid.cpp ..\..\game_shared\vgui_helpers.cpp ..\..\game_shared\vgui_listbox.cpp ..\..\game_shared\vgui_loadtga.cpp ..\..\game_shared\vgui_scrollbar2.cpp ..\..\game_shared\vgui_slider2.cpp ..\..\game_shared\voice_banmgr.cpp ..\..\public\interface.cpp
          interface.cpp
@@ -35,15 +35,15 @@
          vgui_SpectatorPanel.cpp
          vgui_ServerBrowser.cpp
          vgui_ScorePanel.cpp
-     1>d:\working\half life chexter\source code\cl_dll\vgui_scorepanel.cpp(511): warning C4258: 'j' : definition from the for loop is ignored; the definition from the enclosing scope is used
-                 d:\working\half life chexter\source code\cl_dll\vgui_scorepanel.cpp(506) : definition of 'j' ignored
-                 d:\working\half life chexter\source code\cl_dll\vgui_scorepanel.cpp(493) : definition of 'j' used
-     1>d:\working\half life chexter\source code\cl_dll\vgui_scorepanel.cpp(513): warning C4258: 'j' : definition from the for loop is ignored; the definition from the enclosing scope is used
-                 d:\working\half life chexter\source code\cl_dll\vgui_scorepanel.cpp(506) : definition of 'j' ignored
-                 d:\working\half life chexter\source code\cl_dll\vgui_scorepanel.cpp(493) : definition of 'j' used
-     1>d:\working\half life chexter\source code\cl_dll\vgui_scorepanel.cpp(514): warning C4258: 'j' : definition from the for loop is ignored; the definition from the enclosing scope is used
-                 d:\working\half life chexter\source code\cl_dll\vgui_scorepanel.cpp(506) : definition of 'j' ignored
-                 d:\working\half life chexter\source code\cl_dll\vgui_scorepanel.cpp(493) : definition of 'j' used
+     1>d:\working\half life chexter\sourcecode\cl_dll\vgui_scorepanel.cpp(511): warning C4258: 'j' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 d:\working\half life chexter\sourcecode\cl_dll\vgui_scorepanel.cpp(506) : definition of 'j' ignored
+                 d:\working\half life chexter\sourcecode\cl_dll\vgui_scorepanel.cpp(493) : definition of 'j' used
+     1>d:\working\half life chexter\sourcecode\cl_dll\vgui_scorepanel.cpp(513): warning C4258: 'j' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 d:\working\half life chexter\sourcecode\cl_dll\vgui_scorepanel.cpp(506) : definition of 'j' ignored
+                 d:\working\half life chexter\sourcecode\cl_dll\vgui_scorepanel.cpp(493) : definition of 'j' used
+     1>d:\working\half life chexter\sourcecode\cl_dll\vgui_scorepanel.cpp(514): warning C4258: 'j' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 d:\working\half life chexter\sourcecode\cl_dll\vgui_scorepanel.cpp(506) : definition of 'j' ignored
+                 d:\working\half life chexter\sourcecode\cl_dll\vgui_scorepanel.cpp(493) : definition of 'j' used
          vgui_SchemeManager.cpp
          vgui_MOTDWindow.cpp
          vgui_int.cpp
@@ -52,7 +52,7 @@
          vgui_ClassMenu.cpp
          util.cpp
          tri.cpp
-     1>d:\working\half life chexter\source code\public\pman_triangleffect.h(196): warning C4018: '>' : signed/unsigned mismatch
+     1>d:\working\half life chexter\sourcecode\public\pman_triangleffect.h(196): warning C4018: '>' : signed/unsigned mismatch
          train.cpp
          Generating Code...
          Compiling...
@@ -73,7 +73,7 @@
          hud_servers.cpp
          hud_redraw.cpp
          hud_msg.cpp
-     1>d:\working\half life chexter\source code\public\pman_triangleffect.h(196): warning C4018: '>' : signed/unsigned mismatch
+     1>d:\working\half life chexter\sourcecode\public\pman_triangleffect.h(196): warning C4018: '>' : signed/unsigned mismatch
          hud_benchtrace.cpp
          hud_bench.cpp
          hud.cpp
@@ -91,12 +91,12 @@
          ev_common.cpp
          events.cpp
          entity.cpp
-     1>d:\working\half life chexter\source code\public\pman_triangleffect.h(196): warning C4018: '>' : signed/unsigned mismatch
+     1>d:\working\half life chexter\sourcecode\public\pman_triangleffect.h(196): warning C4018: '>' : signed/unsigned mismatch
          demo.cpp
          death.cpp
          com_weapons.cpp
          cdll_int.cpp
-     1>d:\working\half life chexter\source code\public\pman_triangleffect.h(196): warning C4018: '>' : signed/unsigned mismatch
+     1>d:\working\half life chexter\sourcecode\public\pman_triangleffect.h(196): warning C4018: '>' : signed/unsigned mismatch
          battery.cpp
          ammo_secondary.cpp
          ammohistory.cpp
@@ -193,10 +193,10 @@
          Debug\hl_cdll\int\interface.obj
          ..\..\lib\public\game_controls.lib
             Creating library Debug\hl_cdll\client.lib and object Debug\hl_cdll\client.exp
-         hl_cdll.vcxproj -> D:\Working\Half Life Chexter\Source Code\projects\vs2010\Debug\hl_cdll\client.dll
+         hl_cdll.vcxproj -> D:\Working\Half Life Chexter\SourceCode\projects\vs2010\Debug\hl_cdll\client.dll
        PostBuildEvent:
-         call ..\..\filecopy.bat "D:\Working\Half Life Chexter\Source Code\projects\vs2010\Debug\hl_cdll\client.dll" "D:\SteamLibrary\steamapps\common\Half-Life\Chexter\cl_dlls\client.dll"
-         call ..\..\filecopy.bat "D:\Working\Half Life Chexter\Source Code\projects\vs2010\Debug\hl_cdll\client.pdb" "D:\SteamLibrary\steamapps\common\Half-Life\Chexter\cl_dlls\client.pdb"
+         call ..\..\filecopy.bat "D:\Working\Half Life Chexter\SourceCode\projects\vs2010\Debug\hl_cdll\client.dll" "D:\SteamLibrary\steamapps\common\Half-Life\Chexter\cl_dlls\client.dll"
+         call ..\..\filecopy.bat "D:\Working\Half Life Chexter\SourceCode\projects\vs2010\Debug\hl_cdll\client.pdb" "D:\SteamLibrary\steamapps\common\Half-Life\Chexter\cl_dlls\client.pdb"
          :VCEnd
          'p4' is not recognized as an internal or external command,
          operable program or batch file.
@@ -204,8 +204,8 @@
          'p4' is not recognized as an internal or external command,
          operable program or batch file.
                  1 file(s) copied.
-     1>Done Building Project "D:\Working\Half Life Chexter\Source Code\projects\vs2010\hl_cdll.vcxproj" (Rebuild target(s)).
+     1>Done Building Project "D:\Working\Half Life Chexter\SourceCode\projects\vs2010\hl_cdll.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:54.27
+Time Elapsed 00:01:33.66

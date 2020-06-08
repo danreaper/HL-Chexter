@@ -72,3 +72,10 @@
 "light" "255 255 128 200"
 "origin" "0 0 128"
 }
+{
+"classname" "weapon_blaster"
+"delay" "0"
+"angles" "0 0 0"
+"sequence" "0"
+"origin" "-13 -4 36"
+}

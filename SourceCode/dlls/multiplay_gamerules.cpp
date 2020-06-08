@@ -439,8 +439,9 @@ void CHalfLifeMultiplay :: InitHUD( CBasePlayer *pl )
 		WRITE_SHORT( 0 );
 		WRITE_SHORT( 0 );
 		WRITE_SHORT( 0 );
-	MESSAGE_END();
+		MESSAGE_END();
 
+	
 	SendMOTDToClient( pl->edict() );
 
 	// loop through all active players and send their score info to the new client

@@ -333,6 +333,9 @@ void W_Precache(void)
 	UTIL_PrecacheOtherWeapon( "weapon_9mmAR" );
 	UTIL_PrecacheOther( "ammo_9mmAR" );
 	UTIL_PrecacheOther( "ammo_ARgrenades" );
+	
+	//Blaster
+	UTIL_PrecacheOtherWeapon("weapon_blaster");
 
 #if !defined( OEM_BUILD ) && !defined( HLDEMO_BUILD )
 	// python
