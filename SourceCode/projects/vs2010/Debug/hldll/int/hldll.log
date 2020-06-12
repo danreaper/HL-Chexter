@@ -1,4 +1,4 @@
-﻿Build started 8/06/2020 3:52:08 AM.
+﻿Build started 11/06/2020 10:58:42 PM.
      1>Project "D:\Working\Half Life Chexter\SourceCode\projects\vs2010\hldll.vcxproj" on node 2 (Rebuild target(s)).
      1>ClCompile:
          D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\dlls /I..\..\engine /I..\..\common /I..\..\pm_shared /I..\..\game_shared /I..\..\public /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D QUIVER /D VOXEL /D QUAKE2 /D VALVE_DLL /D CLIENT_WEAPONS /D _WINDLL /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Debug\hldll\int\\" /Fd"Debug\hldll\int\vc120.pdb" /Gd /TP /wd4027 /wd4058 /wd4996 /analyze- /errorReport:prompt ..\..\dlls\aflock.cpp ..\..\dlls\agrunt.cpp ..\..\dlls\airtank.cpp ..\..\dlls\animating.cpp ..\..\dlls\animation.cpp ..\..\dlls\apache.cpp ..\..\dlls\barnacle.cpp ..\..\dlls\barney.cpp ..\..\dlls\bigmomma.cpp ..\..\dlls\bloater.cpp ..\..\dlls\bmodels.cpp ..\..\dlls\bullsquid.cpp ..\..\dlls\buttons.cpp ..\..\dlls\cbase.cpp ..\..\dlls\client.cpp ..\..\dlls\combat.cpp ..\..\dlls\controller.cpp ..\..\dlls\crossbow.cpp ..\..\dlls\crowbar.cpp ..\..\dlls\defaultai.cpp ..\..\dlls\doors.cpp ..\..\dlls\effects.cpp ..\..\dlls\egon.cpp ..\..\dlls\explode.cpp ..\..\dlls\flyingmonster.cpp ..\..\dlls\func_break.cpp ..\..\dlls\func_tank.cpp ..\..\dlls\game.cpp ..\..\dlls\gamerules.cpp ..\..\dlls\gargantua.cpp ..\..\dlls\gauss.cpp ..\..\dlls\genericmonster.cpp ..\..\dlls\ggrenade.cpp ..\..\dlls\globals.cpp ..\..\dlls\gman.cpp ..\..\dlls\handgrenade.cpp ..\..\dlls\hassassin.cpp ..\..\dlls\headcrab.cpp ..\..\dlls\healthkit.cpp ..\..\dlls\hgrunt.cpp ..\..\dlls\hornet.cpp ..\..\dlls\hornetgun.cpp ..\..\dlls\houndeye.cpp ..\..\dlls\h_ai.cpp ..\..\dlls\h_battery.cpp ..\..\dlls\h_cine.cpp ..\..\dlls\h_cycler.cpp ..\..\dlls\h_export.cpp ..\..\dlls\ichthyosaur.cpp ..\..\dlls\islave.cpp ..\..\dlls\items.cpp ..\..\dlls\leech.cpp ..\..\dlls\lights.cpp ..\..\dlls\maprules.cpp ..\..\dlls\monstermaker.cpp ..\..\dlls\monsters.cpp ..\..\dlls\monsterstate.cpp ..\..\dlls\mortar.cpp ..\..\dlls\mp5.cpp ..\..\dlls\multiplay_gamerules.cpp ..\..\dlls\nihilanth.cpp ..\..\dlls\nodes.cpp ..\..\dlls\observer.cpp ..\..\dlls\osprey.cpp ..\..\dlls\pathcorner.cpp ..\..\dlls\plane.cpp ..\..\dlls\plats.cpp ..\..\dlls\player.cpp ..\..\dlls\python.cpp ..\..\dlls\rat.cpp ..\..\dlls\roach.cpp ..\..\dlls\rpg.cpp ..\..\dlls\satchel.cpp ..\..\dlls\schedule.cpp ..\..\dlls\scientist.cpp ..\..\dlls\scripted.cpp ..\..\dlls\shotgun.cpp ..\..\dlls\singleplay_gamerules.cpp ..\..\dlls\skill.cpp ..\..\dlls\sound.cpp ..\..\dlls\soundent.cpp ..\..\dlls\spectator.cpp ..\..\dlls\squadmonster.cpp ..\..\dlls\squeakgrenade.cpp ..\..\dlls\subs.cpp ..\..\dlls\talkmonster.cpp ..\..\dlls\teamplay_gamerules.cpp ..\..\dlls\tempmonster.cpp ..\..\dlls\tentacle.cpp ..\..\dlls\triggers.cpp ..\..\dlls\tripmine.cpp ..\..\dlls\turret.cpp ..\..\dlls\util.cpp ..\..\dlls\weapons.cpp ..\..\dlls\world.cpp ..\..\dlls\wpn_shared\hl_wpn_glock.cpp ..\..\dlls\xen.cpp ..\..\dlls\zombie.cpp ..\..\game_shared\voice_gamemgr.cpp Blaster.cpp
@@ -229,8 +229,18 @@
             Creating library (Configuration)\hldll\hlc.lib and object (Configuration)\hldll\hlc.exp
      1>hlc.exp : warning LNK4070: /OUT:hl.dll directive in .EXP differs from output filename '(Configuration)\hldll\hlc.dll'; ignoring directive
          hldll.vcxproj -> D:\Working\Half Life Chexter\SourceCode\projects\vs2010\(Configuration)\hldll\hlc.dll
+       PostBuildEvent:
+         call ..\..\filecopy.bat "D:\Working\Half Life Chexter\SourceCode\projects\vs2010\(Configuration)\hldll\hlc.dll" "D:\SteamLibrary\steamapps\common\Half-Life\Chexter\dlls\hlc.dll"
+         call ..\..\filecopy.bat "D:\Working\Half Life Chexter\SourceCode\projects\vs2010\(Configuration)\hldll\hlc.pdb" "D:\SteamLibrary\steamapps\common\Half-Life\Chexter\dlls\hlc.pdb"
+         :VCEnd
+         'p4' is not recognized as an internal or external command,
+         operable program or batch file.
+                 1 file(s) copied.
+         'p4' is not recognized as an internal or external command,
+         operable program or batch file.
+                 1 file(s) copied.
      1>Done Building Project "D:\Working\Half Life Chexter\SourceCode\projects\vs2010\hldll.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:01:13.96
+Time Elapsed 00:01:24.74

@@ -1,7 +1,6 @@
 // Created by Crowbar 0.68
 
-// Stored modelname (without quotes): "valve/models/v_9mmhandgun.mdl"
-$modelname "v_9mmhandgun.mdl"
+$modelname "v_zorcher.mdl"
 $cd "."
 $cdtexture "."
 $cliptotextures
@@ -9,7 +8,7 @@ $scale 1.0
 
 $bodygroup "studio"
 {
-	studio "glock_reference"
+	studio "zorch_reference"
 }
 $bodygroup "studio"
 {
@@ -24,11 +23,10 @@ $bodygroup "silencer"
 $flags 0
 
 
-$attachment 0 "Bip01 R Hand" 10 2.25 4.25
-
 $cbox 0 0 0 0 0 0
 
 $bbox 0 0 0 0 0 0
+$bbox 0 "Bip01 L Arm2" 0 0 0 0 0 0
 
 $hbox 0 "Bip01 L Arm2" 0 -1.95 -1.49 11.368419 2.46 2.85
 $hbox 0 "Bip01 L Hand" 0 -0.87 -1.73 4.17 1.03 1.87
@@ -37,51 +35,51 @@ $hbox 0 "Bip01 R Hand" 0 -0.87 -2.21 18.139999 3.32 5.04
 $hbox 0 "Bone02" -0.65 -8.12 -0.69 3.33 1.11 0.79
 
 $sequence "idle1" {
-	"v_9mmhandgun_anims\idle1"
+	"v_zorcher_anims\idle1"
 	fps 16
 	loop
 }
 $sequence "idle2" {
-	"v_9mmhandgun_anims\idle2"
+	"v_zorcher_anims\idle2"
 	fps 16
 	loop
 }
 $sequence "idle3" {
-	"v_9mmhandgun_anims\idle3"
+	"v_zorcher_anims\idle3"
 	fps 14
 	loop
 }
 $sequence "shoot" {
-	"v_9mmhandgun_anims\shoot"
+	"v_zorcher_anims\shoot"
 	{ event 5001 0 "11" }
 	fps 25
 }
 $sequence "shoot_empty" {
-	"v_9mmhandgun_anims\shoot_empty"
+	"v_zorcher_anims\shoot_empty"
 	{ event 5001 0 "11" }
 	fps 25
 }
 $sequence "reload" {
-	"v_9mmhandgun_anims\reload"
+	"v_zorcher_anims\reload"
 	{ event 5004 4 "items/9mmclip2.wav" }
 	{ event 5004 23 "items/9mmclip1.wav" }
 	fps 18
 }
 $sequence "reload_noshot" {
-	"v_9mmhandgun_anims\reload_noshot"
+	"v_zorcher_anims\reload_noshot"
 	{ event 5004 4 "items/9mmclip2.wav" }
 	{ event 5004 23 "items/9mmclip1.wav" }
 	fps 18
 }
 $sequence "draw" {
-	"v_9mmhandgun_anims\draw"
+	"v_zorcher_anims\draw"
 	fps 16
 }
 $sequence "holster" {
-	"v_9mmhandgun_anims\holster"
+	"v_zorcher_anims\holster"
 	fps 16
 }
 $sequence "add_silencer" {
-	"v_9mmhandgun_anims\add_silencer"
+	"v_zorcher_anims\add_silencer"
 	fps 18
 }

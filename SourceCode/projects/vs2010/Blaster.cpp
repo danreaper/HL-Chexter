@@ -27,7 +27,7 @@
 #define BLASTER_OFFSET_RIGHT 8
 #define BLASTER_OFFSET_UP -8
 
-#define BLASTER_MODEL_1STPERSON "models/v_9mmhandgun.mdl"
+#define BLASTER_MODEL_1STPERSON "models/v_zorcher.mdl"
 #define BLASTER_MODEL_3RDPERSON "models/p_9mmhandgun.mdl"
 #define BLASTER_MODEL_WORLD "models/w_blaster.mdl"
 #define BLASTER_SOUND_SHOOT "weapons/electro5.wav"
